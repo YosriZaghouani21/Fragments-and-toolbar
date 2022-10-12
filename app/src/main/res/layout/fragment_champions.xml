@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Champions">
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/ic_leesin"
+        android:layout_marginTop="0dp"
+        />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="Name: Lee sin"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:id="@+id/textViewdddd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Role : Jungler"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="50dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/ic_missfortune"
+        android:layout_marginTop="140dp"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name : MissFortune"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="150dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:id="@+id/textViewd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Role : ADC"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="190dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/ic_thresh"
+        android:layout_marginTop="290dp"
+        />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name :Thresh"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="290dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:id="@+id/textViewdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Role : Support"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="320dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/ic_nasus"
+        android:layout_marginTop="440dp"
+
+        />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name : Nasus"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="440dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:id="@+id/textViewddd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Role : Support"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="470dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+
+
+</FrameLayout>

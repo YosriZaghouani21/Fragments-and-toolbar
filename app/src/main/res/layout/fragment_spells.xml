@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Spells">
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/ic_spell_flash"
+        android:layout_marginTop="0dp"
+        />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="Name: Flash"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:id="@+id/textViewdddd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/flash_description"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="50dp"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/ic_spell_ghost"
+        android:layout_marginTop="140dp"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name : Ghost"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="150dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:id="@+id/textViewd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ghost_description"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="190dp"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/ic_spell_heal"
+        android:layout_marginTop="290dp"
+        />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name :Heal"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="290dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:id="@+id/textViewdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/heal_description"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="320dp"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/ic_spell_smite"
+        android:layout_marginTop="440dp"
+
+        />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name : Smite"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="440dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:id="@+id/textViewddd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/smite_description"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="470dp"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        />
+
+
+</FrameLayout>
